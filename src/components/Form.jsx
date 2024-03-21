@@ -6,6 +6,7 @@ const Form = () => {
     const [email,setEmail]=useState("")
     const [password,setPassword]=useState("")
     const [erro,setErro]=useState('')
+    
     const handelSUbmit = (e) => {
         e.preventDefault()
         if(password.length<5){
